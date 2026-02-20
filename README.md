@@ -26,24 +26,24 @@ This full-stack application allows you to:
 - Health check endpoints.
 - Logging system for tracking data uploads.
 
-## Project Architecture
+## 🗺️ Project Architecture
 
 ```bash
 backend/
-├── config/          # Configuración Django (settings, urls, asgi, wsgi)
-├── weather/         # App principal: models, views, serializers, urls
-├── services/        # Lógica de negocio y conexión con Open-Meteo
-├── logs/            # Archivos de logs
-├── manage.py        # Entrada principal de Django
+├── config/          # Django configuration
+├── weather/         # Main app: models, views, serializers, urls
+├── services/        # Business logic and connection to Open-Meteo
+├── logs/            # Log files
+├── manage.py        # Main Django entry point
 ├── models.py        # Models
-└── requirements.txt # Dependencias Python
-
+└── requirements.txt # Python dependencies
 frontend/
-├── src/             # Componentes React y lógica frontend
-├── public/          # Archivos estáticos
-├── package.json     # Dependencias frontend
-└── tsconfig.json    # Configuración TypeScript
+├── src/             # React components and frontend logic
+├── public/          # Static files
+├── package.json     # Frontend dependencies
+└── tsconfig.json    # TypeScript configuration
 ```
+
 ## Installation & Deployment Guide
 
 ### 1) Clone the Repository
